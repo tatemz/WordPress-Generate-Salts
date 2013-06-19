@@ -1,16 +1,18 @@
-= WordPress Generate Salts
+# WordPress Generate Salts
+==========================
 
-A simple plugin for generating WordPress salt keys in
-[[http://sublimetext.com/3|Sublime Text 3]].
+A simple plugin for generating WordPress salt keys in [Sublime Text 3](https://sublimetext.com/3).
 
-== Installation
+## Installation
+===============
 * Install with Sublime Package Manager
 * Install with Git
     1. `<code>`cd Packages`</code>`
     2. `<code>`git clone https://github.com/tatemz/WordPress-Generate-Salts.git "WordPress Generate Salts"
     3. Use the Sublime Text command pallete or `ctrl+alt+g`
 
-== License
+## License
+==========
 
 All of Sublime Alignment is licensed under the MIT license.
 
