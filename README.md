@@ -3,7 +3,7 @@
 A simple plugin for generating WordPress salt keys in [Sublime Text 3](https://sublimetext.com/3).
 
 ## Installation
-* Install with Sublime Package Manager
+* Install with Will Bond's [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
 * Install with Git
     1. `cd Packages`
     2. `git clone https://github.com/tatemz/WordPress-Generate-Salts.git "WordPress Generate Salts"`
