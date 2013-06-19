@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+alt+g"], "command": "wordpress_generate_salts" },
+]
