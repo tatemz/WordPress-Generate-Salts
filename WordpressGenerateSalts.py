@@ -4,7 +4,8 @@ import sublime, sublime_plugin, urllib.request
 class WordpressGenerateSaltsCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         for cursor in self.view.sel():
-            req = urllib.request.Request('https://api.wordpress.org/secret-key/1.1/salt/')
+            #Linux broken SSL http://sublimetext.userecho.com/topic/50801-bundle-python-ssl-module/
+            req = urllib.request.Request('http://api.wordpress.org/secret-key/1.1/salt/')
             response = urllib.request.urlopen(req)
             salts = response.read()
             salts = salts.decode("utf-8")
